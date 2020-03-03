@@ -93,7 +93,7 @@ def main():
 		return
 	HOST = sys.argv[1]
 	PORT = int(sys.argv[2])
-	ADDR = (HOST,PORT) #文件服務器地址
+	ADDR = (HOST,PORT) 
 
 	s = socket()
 	try:
